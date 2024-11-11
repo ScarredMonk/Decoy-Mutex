@@ -56,3 +56,15 @@ The tool parses the JSON file and extract Mutex information from it and create u
 	}
 ]
 ```
+## Scenario Before Deception
+
+The GIF below shows the normal scenario where a Ransomware is executed on the system, it checks for presence of mutex infection marker and could not locate it. In this case, system gets infected. 
+
+![before deception](before-deception.gif)
+
+
+## Scenario After Deception
+
+The GIF below shows the normal scenario where a Ransomware is executed on the system, it checks for presence of mutex infection marker and could not locate it. In this case, system gets infected. 
+
+![before deception](after-deception.gif)
